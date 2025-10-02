@@ -386,9 +386,10 @@
       printButton.style.background = '#1ab394';
       printButton.style.transform = 'translateY(0)';
     };
-  ```
-  printButton.onclick = () => window.print();
   
-  document.body.appendChild(printButton);
-  
-})();
+    printButton.onclick = () => window.print();
+    
+    document.body.appendChild(printButton);
+    
+  })();
+```
